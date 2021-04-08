@@ -1,7 +1,4 @@
 # Data-analysis
 
-## ⭐Makers
+## :movie_camera Project_1 : [넷플릭스 전 세계 컨텐츠 분석]
 
-
-------------------------------------------------------------------
- - data source : [Kaggle Netflix Data](https://www.kaggle.com/shivamb/netflix-shows)
