@@ -18,10 +18,19 @@
 
 ### 전처리
   #### 🏭환경설정
-      - Python 3.6 이상의 버젼 설치가 필요
+   - Python 3.6 이상의 버젼 설치가 필요하고 전체코드를 실행하려면 아래의 라이브러리 설치 필요
   
   ```
-  pip install  pandas
+  pip install pandas
+  pip install numpy
+  pip install seaborn
+  pip install matplotlib
+  pip install missingno
+  pip install warnings
+  pip install folium
+  pip install plotly
+  pip install scikit-learn
+  
   ```
 
 
