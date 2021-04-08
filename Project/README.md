@@ -3,7 +3,7 @@
 ## 개요
 
 #### 💡 주제 및 목표
-  ###### 프로젝트 주제
+  ##### 프로젝트 주제
   - **넷플릭스 콘텐츠 변화**를 주제로 1997년부터 2021년 까지 넷플릭스에 등록된 데이터를 활용하여 **넷플릭스의 콘텐츠 변화, 코로나 시대로 인한 콘텐츠 변화**분석하고 시각화
   - Kaggle에서 제공하는 Netflix Movies and TV Shows 데이터를 활용하여 분석하였습니다.
   - 🔗data source : [Kaggle Netflix Data](https://www.kaggle.com/shivamb/netflix-shows)
