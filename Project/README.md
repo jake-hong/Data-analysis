@@ -30,10 +30,9 @@
   pip install folium
   pip install plotly
   pip install scikit-learn
-  
   ```
 
-
+![데이터 분석과정](https://user-images.githubusercontent.com/68861542/114045365-ed76df00-98c2-11eb-9c88-e145103e42b1.png)
 
 
 
