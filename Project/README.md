@@ -20,6 +20,7 @@
 ![데이터 분석 과정](https://user-images.githubusercontent.com/68861542/114046075-80b01480-98c3-11eb-870b-08ce27b2fc59.png)
   #### 🏭환경설정
    - Python 3.6 이상의 버젼 설치가 필요하고 전체코드를 실행하려면 아래의 라이브러리 설치 필요
+   - 해당 파일들은 Colab에서 작성되었습니다.
   
   ```
   pip install pandas
