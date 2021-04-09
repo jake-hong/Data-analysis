@@ -35,6 +35,8 @@
   ```
    #### ✂️ 결측치 처리
 
+<img width="40%" alt="결측치 제거전" src="https://user-images.githubusercontent.com/68861542/114172250-608a5f00-9970-11eb-9de8-78d16547656d.png"><img width="40%" alt="결측치 제거후" src="https://user-images.githubusercontent.com/68861542/114172265-62ecb900-9970-11eb-9c5d-c476aba271b5.png">
+
 
 ## 💡데이터 분석 과정
   #### 1. 전체 데이터 분석
