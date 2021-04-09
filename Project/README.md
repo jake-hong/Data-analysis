@@ -110,7 +110,8 @@
     ![newplot (2)](https://user-images.githubusercontent.com/68861542/114187270-c253c480-9982-11eb-86dc-440edcdc22d5.png)
      
    2) 가설 2: 넷플릭스에 선정적인 콘텐츠가 많은데 COVID-19에도 유지가 될 수 있을까?
-    <img width="40%" alt="코로나전후 콘텐츠비교" src="https://user-images.githubusercontent.com/68861542/114187452-fa5b0780-9982-11eb-9738-d00a3a66dca3.png"><img width="40%" alt="상위30개 콘텐츠 연도별" src="https://user-images.githubusercontent.com/68861542/114187552-18286c80-9983-11eb-8f03-c897f9c18eec.png">
+    <img width="549" alt="코로나전후 콘텐츠비교" src="https://user-images.githubusercontent.com/68861542/114187452-fa5b0780-9982-11eb-9738-d00a3a66dca3.png">
+    <img width="549" alt="상위30개 콘텐츠 연도별" src="https://user-images.githubusercontent.com/68861542/114187552-18286c80-9983-11eb-8f03-c897f9c18eec.png">
 
    3) 가설 3: COVID-19 대유행으로 넷플릭스에 등록하는 콘텐츠가 줄지 않았을까?
     <img width="549" alt="2020년 콘텐츠 생산" src="https://user-images.githubusercontent.com/68861542/114187630-2d050000-9983-11eb-966c-c2962edf8fac.png">
