@@ -1,6 +1,7 @@
 # 넷플릭스 전세계 컨텐츠 분석(2021.04.03)
 
 ## 개요
+  - 해당 파일의 코드는 ipynb 파일에 목차별로 정리해두었습니다.
 
 #### 💡 주제 및 목표
   ##### 프로젝트 주제
@@ -33,6 +34,40 @@
   pip install plotly
   pip install scikit-learn
   ```
+  - 한글 폰트 설정(Colab)
+  ```
+  !apt -qq -y install fonts-nanum
+ 
+  fontpath = '/usr/share/fonts/truetype/nanum/NanumBarunGothic.ttf'
+  font = fm.FontProperties(fname=fontpath, size=10)
+  fm._rebuild()
+
+  # 그래프에 retina display 적용
+  %config InlineBackend.figure_format = 'retina'
+
+  # Colab 의 한글 폰트 설정
+  plt.rc('font', family='NanumBarunGothic') 
+  ```
+  
+  #### 📁파일 불러오기
+   - 구글 드라이브에 temp라는 파일을 만든 후 netflix.csv 파일을 넣어주었습니다.
+   ```
+   # 구글드라이브 연동
+  from google.colab import drive
+  drive.mount('/gdrive', force_remount=True)
+
+  # 구글 드라이브 파일 확인
+  !ls '/gdrive/My Drive/temp/'
+
+  # 반복되는 드라이브 경로 변수화
+  drive_path = '/gdrive/My Drive/temp/'
+  ```
+  - 파일 불러오기
+  ```
+  df = pd.read_csv(drive_path + 'netflix.csv')
+  ```
+  
+  
   #### ✂️ 결측치 처리
   - 결측치가 가장 많은 director행과 사용하지 않는 3개의 열(show_id, cast, description) 열을 삭제 한 후 결측치가 존재하는 행을 전부 다 지워서 7265개 데이터가 남았다. 
 
