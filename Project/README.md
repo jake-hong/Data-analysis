@@ -33,10 +33,18 @@
   pip install plotly
   pip install scikit-learn
   ```
-   #### ✂️ 결측치 처리
+  #### ✂️ 결측치 처리
+  - 결측치가 가장 많은 director행과 사용하지 않는 3개의 열(show_id, cast, description) 열을 삭제 한 후 결측치가 존재하는 행을 전부 다 지워서 7265개 데이터가 남았다. 
 
 <img width="40%" alt="결측치 제거전" src="https://user-images.githubusercontent.com/68861542/114172250-608a5f00-9970-11eb-9de8-78d16547656d.png"><img width="40%" alt="결측치 제거후" src="https://user-images.githubusercontent.com/68861542/114172265-62ecb900-9970-11eb-9c5d-c476aba271b5.png">
 
+  #### ➡️ 결측치 변환
+ ```
+ df['date_added'] = pd.to_datetime(df['date_added'])
+ df['year']= df['date_added'].dt.year
+ df['month']= df['date_added'].dt.month
+ df['day']= df['date_added'].dt.day
+ ```
 
 ## 💡데이터 분석 과정
   #### 1. 전체 데이터 분석
